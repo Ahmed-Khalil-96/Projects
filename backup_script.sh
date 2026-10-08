@@ -76,7 +76,7 @@ else
 	echo -e "\nBacking up files from $1 to $2/current"
 	sleep 3
 	echo -e "\nBackup process started at $(date +%Y-%m-%d_%H-%M-%S)"
-	sleep 2
+	sleep 3
 	echo -e "\nPlease wait while the backup is in progress..."
 	sleep 4	
 	#Capture the date and store it in format YYYY-MM-DD
