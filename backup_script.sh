@@ -78,7 +78,7 @@ else
 	echo -e "\nBackup process started at $(date +%Y-%m-%d_%H-%M-%S)"
 	sleep 3
 	echo -e "\nPlease wait while the backup is in progress..."
-	sleep 4	
+	sleep 5	
 	#Capture the date and store it in format YYYY-MM-DD
 			current_date=$(date +%Y-%m-%d)
 			
